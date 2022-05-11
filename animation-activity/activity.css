@@ -28,8 +28,13 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {
+    
+  }
+  to {
+    transform-origin: center;
+    transform: translate(0%, 100%) rotate(45deg) translate(20%, 50%);
+  }
 }
 
 @keyframes middle {
